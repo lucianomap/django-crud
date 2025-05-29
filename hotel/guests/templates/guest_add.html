@@ -1,0 +1,7 @@
+<h1>Add Guest</h1>
+<form method="post">
+    {% csrf_token %}
+    <input type="text" name="name" placeholder="Guest's Name">
+    <input type="text" name="entry_day" placeholder="Entry Day">
+    <button type="submit">Save</button>
+</form>

@@ -1,0 +1,10 @@
+<h1>Guest List</h1>
+<ul>
+    {% for guest in guests %}
+    <li>
+        {{ guest.name }}
+        <a href="{% url 'guest_delete' guest.id %}">Delete</a> 
+    </li>
+    {% endfor %}
+</ul>
+<a href="{% url 'guest_add' %}">Add a guest</a>

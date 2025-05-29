@@ -1,0 +1,5 @@
+.venv/
+hotel/guests/__pycache__/
+hotel/guests/migrations/__pycache__/
+hotel/hotel/__pycache__/
+hotel/db.sqlite3
